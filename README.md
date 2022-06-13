@@ -2,8 +2,14 @@
 The implementation of Fast Provably Robust Decision Trees and Boosting.
 
 ## Simple example
-To train and evaluate FPRDT one can use the following command:
+### FPRDT
+To train and evaluate FPRDT on dataset mnist1v7, one can use the following command:
 ```
-python main.py
+python main.py -m FPRDT --dataset mnist1v7
 ```
 
+### PRAdaBoost
+To train and evaluate PRAdaBoost on dataset mnist1v7, one can use the following command:
+```
+python main.py -m PRAdaBoost --dataset mnist1v7
+```
