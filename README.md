@@ -1,2 +1,9 @@
-# FPRDT
-The implementation of Fast Provably Robust Decision Trees and Boosting, published in ICML 2022.
+# Fast Provably Robust Decision Trees and Boosting
+The implementation of Fast Provably Robust Decision Trees and Boosting.
+
+## Simple example
+To train and evaluate FPRDT one can use the following command:
+```
+python main.py
+```
+
